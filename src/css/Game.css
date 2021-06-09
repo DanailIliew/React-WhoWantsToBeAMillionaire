@@ -1,0 +1,89 @@
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+}
+
+.header {
+    position: fixed;
+    right: 18px;
+    top: 20px;
+}
+
+.footerStartGame {
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    float: right;
+}
+
+.headerResign {
+    text-align: center;
+    width: 200px;
+    height: 90px;
+    margin: auto;
+}
+
+.questionPanelFooter {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+}
+
+.questionPanel {
+    text-align: center;
+    width: 1450px;
+    height: 250px;
+    float: left;
+}
+
+.questionPanelButton * {
+    text-align: center;
+    width: 450px;
+}
+
+.progressiveJackpot {
+    position: fixed;
+    right: 0;
+    bottom: 320px;
+    max-height: 500px;
+    width: 250px;
+    float: right;
+    text-align: center;
+}
+
+.lifelines {
+    position: fixed;
+    left: 0;
+    bottom: 450px;
+    float: left;
+    text-align: center;
+}
+
+.lifelines * {
+    width: 250px;
+}
+
+.winnings * {
+    height: 40px;
+    text-align: center;
+}
+
+.backgroundImage {
+    background-image: url("https://media.washtimes.com/media/image/2015/08/05/millionaire-cover.jpg");
+    height: 100vh;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.center-restart-game * {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
